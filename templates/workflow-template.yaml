@@ -9,5 +9,5 @@ spec:
     - name: whalesay
       container:
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-        command: ["sh", "-c"]
-        args: ["echo", "hello worlddddddddddddddddd"]
+        command: ["cowsay"]
+        args: ["hello worlddddddddddddddddd"]
