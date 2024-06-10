@@ -1,0 +1,6 @@
+apiVersion: v2
+name: workflow-template-chart
+description: A Helm chart for deploying a WorkflowTemplate
+version: 0.1.0
+appVersion: "1.0"
+
