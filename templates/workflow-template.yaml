@@ -8,6 +8,6 @@ spec:
   templates:
     - name: whalesay
       container:
-        image: docker.io/docker/whalesay
-        command: [cowsay]
-        args: ["hello world"]
+        image: alpine
+        command: ["sh", "-c"]
+        args: ["echo", "hello world"]
