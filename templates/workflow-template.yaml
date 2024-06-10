@@ -8,6 +8,6 @@ spec:
   templates:
     - name: whalesay
       container:
-        image: alpine
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         command: ["sh", "-c"]
-        args: ["echo", "hello world"]
+        args: ["echo", "hello worlddddddddddddddddd"]
